@@ -1,0 +1,272 @@
+.modal_window {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    left: 0;
+    top: 90px;
+    right: 0;
+    margin: auto;
+    z-index: 5;
+}
+
+.modal_open{
+	cursor: pointer;
+}
+
+.modal_window .modal_window_container {
+    display: flex;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.modal_overlay{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 4;
+}
+
+.modal_window_title {
+    width: 100%;
+    display: flex;
+}
+
+.modal_window{
+	visibility: hidden;
+	opacity: 0;
+}
+
+.modal_overlay{
+	visibility: hidden;
+	opacity: 0;	
+}
+
+.modal_window_close_btn{
+	margin-right: 0;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.modal_window_open{
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.2s ease-in;
+}
+
+.overlay_window_open{
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.2s ease-in;	
+}
+
+.modal_window_close{
+	opacity: 0 !important;
+	visibility: hidden !important;
+	transition: all 0.5s ease-in;
+}
+
+.overlay_window_close{
+	opacity: 0 !important;
+	visibility: hidden !important;
+	transition: all 0.5s ease-in;	
+}
+
+.modal_list_container {
+    display: flex;
+    width: 100%;
+}
+
+/*Modal Window Global Styles End*/
+
+.question_block_modal_list {
+    width: 100%;
+}
+
+.question_block_modal_list li {
+    display: flex;
+    border-bottom: 1px solid #D9EEEA;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.question_block_modal_list_checkbox {
+    margin-right: 10px;
+}
+
+.question_block_modal_list_item{
+	display: flex;
+}
+
+.question_block_modal_list_item p{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.check_modal_result {
+    width: 50%;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.answers_check_modal {
+
+}
+
+.answers_check_modal .table_scroll{
+
+}
+
+.modal_list_subcontainer{
+	width: 50% !important;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.modal_list_subcontainer .small_title_for_legend{
+	width: 100%;
+}
+
+.check_modal_result ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.question_block_modal_list_tag{
+	height: auto !important;	
+}
+
+.question_block_modal_list_tag:hover{
+	height: auto !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+	overflow: inherit !important;
+}
+
+.modal_timing{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.modal_content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.audioLineZindex{
+	z-index: 10;
+}
+
+#modal_window_2{
+	width: 80%;
+}
+
+#modal_window_2 .modal_content {
+    width: 100%;
+}
+
+#modal_window_2 .modal_window_title {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.modal_2_inputs{
+	display: flex;
+	width: 100%;
+}
+
+.modal_2_inputs .flex:nth-child(1){
+	margin-right: auto;
+	margin-left: 0;
+}
+
+.modal_2_inputs .flex:nth-child(2){
+	margin: auto;
+}
+
+.modal_2_inputs .flex:nth-child(3){
+	margin: auto;
+}
+
+.modal_2_inputs .flex:nth-child(4){
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.modal_2_checkboxes {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal_2_checkboxes .flex {
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.modal_2_checkboxes .flex:first-child{
+	margin-left: 0;
+}
+
+.modal_2_checkboxes .flex:last-child{
+	margin-right: 0;
+}
+
+.modal_2_checkboxes input{
+	max-width: 100px;
+}
+
+.modal_2_checkboxes .question_block_question_text{
+	color: #97D1C7;
+	font-size: 11px;
+	margin: auto;
+	margin-right: 10px;
+}
+
+.modal_2_checkboxes .label_for_checkbox{
+	margin: auto !important;
+}
+
+.modal_2_buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal_2_buttons .modal_button_container {
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.modal_2_buttons .modal_button_container button{
+	margin: auto;
+}
+
+.modal_2_buttons .modal_button_container:first-child{
+	margin-left: 0;
+}
+
+.modal_2_buttons .modal_button_container:first-child button {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.modal_2_buttons .modal_button_container:last-child{
+	margin-right: 0;
+}
+
+.modal_2_buttons .modal_button_container:last-child button {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.border_button{
+	border: 2px solid #97C2D1;
+	background: none !important;
+	color: #97C2D1;
+}
